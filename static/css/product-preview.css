@@ -34,6 +34,8 @@ p {
 img {
 	border-radius: 20px 20px 0 0;
 	max-width: 100%;
+	width: 100%;
+	align-items: stretch;
 }
 
 #text-intro {
@@ -87,18 +89,21 @@ img {
 	
 	#product-box {
 		flex-direction: row;
-		max-width: 900px;
-		align-items: center;
-		margin: 150px auto;
+		max-width: 800px;
+		margin: 200px auto;
 	}
-
+	
 	#product-box img {
 		border-radius: 20px 0 0 20px;
 		max-width: 400px;
+		height: 100%;
+		width: auto;
+		align-items: stretch;
 	}
 
 	#text-box {
-		padding: 40px;
+		padding: 0px 40px 0px 40px;
+		align-content: center;
 	}
 }
 
