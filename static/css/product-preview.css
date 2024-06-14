@@ -84,38 +84,56 @@ img {
 
 @media (min-width: 48em) {
 	p {
-		font-size: 18px;
+		font-size: 17px;
+	}
+
+	h1 {
+		font-size: 1.9rem;
+		line-height: 1;
+	}
+	
+	#perfume {
+		padding-top: 30px;
+		font-size: 0.7rem;
+	}
+
+	#text-intro {
+		line-height: 1.5;
 	}
 	
 	#product-box {
 		flex-direction: row;
-		max-width: 800px;
+		max-width: 700px;
 		margin: 200px auto;
 	}
 	
 	#product-box img {
 		border-radius: 20px 0 0 20px;
-		max-width: 400px;
+		max-width: 330px;
 		height: 100%;
 		width: auto;
 		align-items: stretch;
 	}
 
 	#text-box {
-		padding: 0px 40px 0px 40px;
+		padding: 0px 50px 0px 40px;
 		align-content: center;
+	}
+
+	#big-money {
+		font-size: 1.9rem;
 	}
 }
 
 #add-to-cart {
 	background-color: hsl(158, 36%, 37%);
 	border-radius: 10px;
-	padding: 6px 10px;
+	padding: 16px 0;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	gap: 10px;
+	gap: 20px;
 	transition: background-color 0.3s ease;
 }
 
@@ -131,6 +149,7 @@ img {
 
 #add-to-cart p {
 	color: white;
+	margin: 0;
 }
 
 /* This is how your website looks on mobile by default 
