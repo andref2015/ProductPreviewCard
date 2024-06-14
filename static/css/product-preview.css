@@ -1,0 +1,142 @@
+html {
+	width: 100%;
+	min-height: 100%;
+}
+
+body {
+	background-color: hsl(30, 38%, 92%);
+}
+
+#product-box {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 20px;
+	margin: 20px;
+}
+
+h1 {
+	font-family: 'Fraunces', serif;
+	font-weight: 700;
+	font-size: 2.2rem;
+	color: hsl(212, 21%, 14%);
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	color: hsl(228, 12%, 48%);
+}
+
+img {
+	border-radius: 20px 20px 0 0;
+	max-width: 100%;
+}
+
+#text-intro {
+	margin-bottom: 0px;
+	line-height: 2;
+}
+
+#text-box {
+	padding: 25px;
+}
+
+#money-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	gap: 40px;
+}
+
+#big-money {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Fraunces', serif;
+	font-weight: 700;
+	font-size: 2.2rem;
+	color: hsl(158, 36%, 37%);
+}
+
+#small-money {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'Fraunces', serif;
+	font-weight: 500;
+	text-decoration: line-through;
+	text-decoration-color: rgba(0, 0, 0, 0.3);
+}
+
+#perfume {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	letter-spacing: 3px;
+	color: hsl(228, 12%, 48%);
+	font-weight: 300;
+	font-size: 0.9rem;
+}
+
+@media (min-width: 48em) {
+	p {
+		font-size: 18px;
+	}
+	
+	#product-box {
+		flex-direction: row;
+		max-width: 900px;
+		align-items: center;
+		margin: 150px auto;
+	}
+
+	#product-box img {
+		border-radius: 20px 0 0 20px;
+		max-width: 400px;
+	}
+
+	#text-box {
+		padding: 40px;
+	}
+}
+
+#add-to-cart {
+	background-color: hsl(158, 36%, 37%);
+	border-radius: 10px;
+	padding: 6px 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	transition: background-color 0.3s ease;
+}
+
+#add-to-cart:hover{
+	background-color: #1A4031;
+}
+
+#add-to-cart img {
+	width: 20px;
+	height: auto;
+	border-radius: 0px;
+}
+
+#add-to-cart p {
+	color: white;
+}
+
+/* This is how your website looks on mobile by default 
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 48em) {
+	main {
+		flex-direction: row;
+	}
+}
+*/
